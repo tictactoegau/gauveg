@@ -4,192 +4,319 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>GauVeg | Village Balanced Living</title>
+  <title>GauVeg | Live Sattvic. Live in Harmony.</title>
+  <meta name="description" content="GauVeg promotes sattvic living, Gau Seva, spiritual awareness, compassion, and harmony with nature." />
 
-  <!-- SEO META -->
-  <meta name="description" content="Holistic Vedic living through Saatvik diet, Gau Seva, Yoga, Meditation, Jnana and conscious awareness for balanced body, mind and Aatma." />
-
-  <!-- FAVICON -->
-  <link rel="icon" href="images/favicon.ico" type="image/jpeg" />
-
-  <!-- STYLES -->
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/favicons/favicon-app-icon.png" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicons/favicon-app-icon.png" />
+  <link rel="apple-touch-icon" href="assets/favicons/favicon-app-icon.png" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a href="#home" class="brand" aria-label="GauVeg home">
+        <img src="assets/logos/logo-header-emblem.png" alt="GauVeg cow logo" />
+        <span>
+          <strong>GauVeg</strong>
+          <small>Live Sattvic. Live in Harmony.</small>
+        </span>
+      </a>
 
-<header class="navbar">
-  <div class="nav-inner">
-    <a href="index.html" class="brand">
-      <img src="images/GauVegLogo.svg" alt="GauVeg Logo" />
-      <div>
-        <strong>GauVeg</strong>
-        <span>Village Balanced Living</span>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open navigation" />
+      <label for="nav-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#spirituality">Spirituality</a>
+        <a href="#awareness">Awareness</a>
+        <a href="#diet">Diet</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="donate-nav" href="https://www.paypal.com/donate/?hosted_button_id=8T9EJ3S82WH7Y" target="_blank" rel="noopener">
+        Donate with PayPal
+      </a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="assets/images/hero-landscape.jpg" alt="Temple landscape with peaceful cows and nature" />
       </div>
-    </a>
 
-    <nav class="nav-links">
-      <a href="index.html" class="active">Home</a>
-      <a href="living.html">Living</a>
-      <a href="diet.html">Diet</a>
-      <a href="spirituality.html">Spirituality</a>
-      <a href="awareness.html">Awareness</a>
-      <a href="benefits.html">Benefits</a>
-      <a href="about.html">About Us</a>
-    </nav>
-  </div>
-</header>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <h1>Live Sattvic.<br />Live in Harmony.</h1>
+          <div class="gold-rule" aria-hidden="true"><span></span></div>
+          <p>
+            Rooted in Ahimsa, guided by the wisdom of cows, and inspired by nature—
+            GauVeg is a way of living that nurtures the body, calms the mind,
+            and elevates the soul.
+          </p>
 
-<section class="hero">
-  <img src="images/hero.jpg" class="hero-image" alt="Village balanced living" />
-  <div class="hero-overlay"></div>
-
-  <div class="hero-content">
-    <h1>Village<br>Balanced Living</h1>
-    <p>Body • Mind • Spirit<br>in Harmony with Prakriti</p>
-    <h3>Nourish. Balance. Thrive.</h3>
-    <a href="living.html" class="hero-btn">🌿 Explore Our Way of Life</a>
-  </div>
-</section>
-
-<section class="intro-section">
-  <p class="section-label">OUR WAY OF LIFE</p>
-  <h2>A Return to What Truly Matters</h2>
-  <p class="intro-text">
-    We embrace simple, conscious living inspired by ancient wisdom and rooted in
-    compassion, community, and care for all beings.
-  </p>
-
-  <div class="feature-grid">
-    <a href="living.html" class="feature-card green">
-      <div class="feature-icon">🌱</div>
-      <h3>Living with Nature</h3>
-      <p>Living in harmony with the earth and its rhythms.</p>
-      <span></span>
-    </a>
-
-    <a href="living.html" class="feature-card saffron">
-      <div class="feature-icon">🐄</div>
-      <h3>Compassion for All</h3>
-      <p>Gau Seva and Ahimsa in thought, word and deed.</p>
-      <span></span>
-    </a>
-
-    <a href="spirituality.html" class="feature-card purple">
-      <div class="feature-icon">🧘</div>
-      <h3>Spiritual Balance</h3>
-      <p>Nourishing the soul through yoga and meditation.</p>
-      <span></span>
-    </a>
-
-    <a href="awareness.html" class="feature-card blue">
-      <div class="feature-icon">👥</div>
-      <h3>Community & Seva</h3>
-      <p>Selfless service and awareness for a better tomorrow.</p>
-      <span></span>
-    </a>
-  </div>
-</section>
-
-<section class="page-cards">
-  <a href="living.html" class="page-card">
-    <img src="images/living.jpg" alt="Living" />
-    <div>
-      <h3>Living</h3>
-      <p>Gau Seva, Ahimsa and Respect for All Life</p>
-      <b>→</b>
-    </div>
-  </a>
-
-  <a href="diet.html" class="page-card">
-    <img src="images/diet.jpg" alt="Diet" />
-    <div>
-      <h3>Diet</h3>
-      <p>Sattvic Food for a Healthy Body & Mind</p>
-      <b>→</b>
-    </div>
-  </a>
-
-  <a href="spirituality.html" class="page-card">
-    <img src="images/spiritual.jpg" alt="Spirituality" />
-    <div>
-      <h3>Spirituality</h3>
-      <p>Gau Calm, Meditation, Yoga & Inner Balance</p>
-      <b>→</b>
-    </div>
-  </a>
-
-  <a href="awareness.html" class="page-card">
-    <img src="images/awareness.jpg" alt="Awareness" />
-    <div>
-      <h3>Awareness</h3>
-      <p>Workshops, Talks & Community Seva</p>
-      <b>→</b>
-    </div>
-  </a>
-
-  <a href="about.html" class="page-card">
-    <img src="images/about.jpg" alt="About Us" />
-    <div>
-      <h3>About Us</h3>
-      <p>Our Journey, Vision and Mission</p>
-      <b>→</b>
-    </div>
-  </a>
-</section>
-
-<footer class="footer">
-  <div class="footer-grid">
-
-    <div class="footer-brand">
-      <div class="footer-logo-row">
-        <img src="images/GauVegLogo.svg" alt="GauVeg Logo" />
-        <div>
-          <h2>GauVeg</h2>
-          <span>Village Balanced Living</span>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#benefits">Explore the Way</a>
+            <a class="btn btn-secondary" href="https://www.paypal.com/donate/?hosted_button_id=8T9EJ3S82WH7Y" target="_blank" rel="noopener">
+              Donate with PayPal
+            </a>
+          </div>
         </div>
       </div>
+    </section>
 
-      <p>
-        Promoting harmony between body, mind, spirit and nature through conscious living,
-        compassion and community awareness.
-      </p>
+    <section id="benefits" class="way-section">
+      <div class="container">
+        <div class="section-title">
+          <div class="line"></div>
+          <h2>The GauVeg Way</h2>
+          <div class="line"></div>
+        </div>
 
-      <div class="social-row">
-        <a href="#">f</a>
-        <a href="#">◎</a>
-        <a href="#">▶</a>
-        <a href="#">☘</a>
+        <div class="way-grid">
+          <article>
+            <img src="assets/icons/icon-sattvic-living.png" alt="" aria-hidden="true" />
+            <h3>Sattvic Diet</h3>
+            <p>Pure, plant-based nutrition that brings clarity, lightness, and vibrant health.</p>
+          </article>
+
+          <article>
+            <img src="assets/icons/icon-gau-seva.png" alt="" aria-hidden="true" />
+            <h3>Gau Seva</h3>
+            <p>Serving and protecting cows with love, gratitude, and humility every day.</p>
+          </article>
+
+          <article>
+            <img src="assets/icons/icon-yoga-meditation.png" alt="" aria-hidden="true" />
+            <h3>Inner Balance</h3>
+            <p>Meditation, mindfulness and self-awareness for peace and purpose.</p>
+          </article>
+
+          <article>
+            <img src="assets/icons/icon-environment-care.png" alt="" aria-hidden="true" />
+            <h3>Prakriti</h3>
+            <p>Living in harmony with nature and supporting a sustainable future.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="spirituality" class="spiritual-section panel-section">
+      <div class="container split-panel">
+        <div class="image-panel">
+          <img src="assets/images/spirituality.jpg" alt="Meditation and sunrise in a spiritual landscape" />
+        </div>
+
+        <div class="copy-panel">
+          <p class="eyebrow">Spiritual Living</p>
+          <h2>Nourish the Soul.<br />Awaken the Inner Light.</h2>
+          <p>
+            A sattvic lifestyle is the foundation of spiritual growth. Through meditation,
+            mindful living and self-discipline, we cultivate inner peace, compassion
+            and higher awareness.
+          </p>
+
+          <div class="mini-icons">
+            <div>
+              <img src="assets/icons/icon-sattvic-living.png" alt="" aria-hidden="true" />
+              <span>Calm Body</span>
+            </div>
+            <div>
+              <img src="assets/icons/icon-yoga-meditation.png" alt="" aria-hidden="true" />
+              <span>Clear Mind</span>
+            </div>
+            <div>
+              <img src="assets/icons/icon-ahimsa.png" alt="" aria-hidden="true" />
+              <span>Kind Heart</span>
+            </div>
+            <div>
+              <img src="assets/icons/icon-environment-care.png" alt="" aria-hidden="true" />
+              <span>Awakened Spirit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="awareness" class="awareness-diet-zone">
+      <div class="container">
+        <div class="awareness-cards">
+          <article>
+            <img src="assets/icons/icon-ahimsa.png" alt="" aria-hidden="true" />
+            <div>
+              <h3>Ahimsa</h3>
+              <p>Choose thoughts, words and actions that promote non-violence and love.</p>
+            </div>
+          </article>
+
+          <article>
+            <img src="assets/icons/icon-gau-seva.png" alt="" aria-hidden="true" />
+            <div>
+              <h3>Gau Awareness</h3>
+              <p>Understand the sacred role of cows in culture, ecology and economy.</p>
+            </div>
+          </article>
+
+          <article>
+            <img src="assets/icons/icon-environment-care.png" alt="" aria-hidden="true" />
+            <div>
+              <h3>Nature Harmony</h3>
+              <p>Protect our environment and live in harmony with all of nature.</p>
+            </div>
+          </article>
+        </div>
+
+        <div id="diet" class="diet-row">
+          <div class="diet-image">
+            <img src="assets/images/sattvic-meal.png" alt="Sattvic vegetarian meal" />
+          </div>
+
+          <div class="diet-copy">
+            <p class="eyebrow">Sattvic Diet</p>
+            <h2>What a Sattvic Diet Includes</h2>
+            <div class="gold-rule slim" aria-hidden="true"><span></span></div>
+
+            <ul class="check-list">
+              <li>Fresh, seasonal and natural foods</li>
+              <li>Grains, pulses, fruits, vegetables and nuts</li>
+              <li>Prepared with love, in a calm state of mind</li>
+              <li>Pure, vegetarian and cruelty-free</li>
+            </ul>
+
+            <div class="diet-benefits">
+              <article>
+                <img src="assets/icons/icon-yoga-meditation.png" alt="" aria-hidden="true" />
+                <span>Calm Mind</span>
+              </article>
+              <article>
+                <img src="assets/icons/icon-sattvic-living.png" alt="" aria-hidden="true" />
+                <span>Better Digestion</span>
+              </article>
+              <article>
+                <img src="assets/icons/icon-environment-care.png" alt="" aria-hidden="true" />
+                <span>Clean Energy</span>
+              </article>
+              <article>
+                <img src="assets/icons/icon-environment-care.png" alt="" aria-hidden="true" />
+                <span>Gentle Living</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gau-section">
+      <div class="container gau-row">
+        <div class="gau-copy">
+          <h2>Gau Seva is Our Dharma</h2>
+          <div class="gold-rule slim" aria-hidden="true"><span></span></div>
+          <p>
+            Serving and protecting cows is an act of devotion. Through Gau Seva,
+            we honor their unconditional giving and preserve our sacred heritage.
+          </p>
+
+          <a class="btn btn-primary" href="https://www.paypal.com/donate/?hosted_button_id=8T9EJ3S82WH7Y" target="_blank" rel="noopener">
+            Support Gau Seva
+          </a>
+        </div>
+
+        <div class="gau-image">
+          <img src="assets/images/gau-seva.jpg" alt="Cow and calf in a peaceful shelter" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="support-contact">
+      <div class="container support-contact-row">
+        <div id="about" class="support-card">
+          <div class="support-photo">
+            <img src="assets/images/community.jpg" alt="Community gathering for conscious living" />
+          </div>
+
+          <div class="support-copy">
+            <p class="eyebrow">Support Our Mission</p>
+            <h2>Be Part of the Change</h2>
+            <p>
+              Your support helps us protect cows, promote sattvic living,
+              and create a compassionate, conscious world.
+            </p>
+            <a class="btn btn-primary" href="https://www.paypal.com/donate/?hosted_button_id=8T9EJ3S82WH7Y" target="_blank" rel="noopener">
+              Donate with PayPal
+            </a>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <h2>Get in Touch</h2>
+          <div class="field-row">
+            <input type="text" name="name" placeholder="Name *" required />
+            <input type="email" name="email" placeholder="Email *" required />
+          </div>
+          <textarea name="message" rows="5" placeholder="Message *" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p id="formStatus" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-about">
+        <a class="footer-brand" href="#home">
+          <img src="assets/logos/logo-header-emblem.png" alt="GauVeg logo" />
+          <span>
+            <strong>GauVeg</strong>
+            <small>Live Sattvic. Live in Harmony.</small>
+          </span>
+        </a>
+
+        <p>
+          GauVeg is a lifestyle inspired by timeless wisdom and rooted in compassion.
+          We promote harmony between body, mind, spirit, cows and nature through
+          conscious living, pure food, self-discipline and selfless service for a better world.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="#benefits">Living</a>
+        <a href="#diet">Diet</a>
+        <a href="#spirituality">Spirituality</a>
+        <a href="#awareness">Awareness</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#about">About Us</a>
+      </div>
+
+      <div class="footer-focus">
+        <h3>Our Focus</h3>
+        <div><img src="assets/icons/icon-gau-seva.png" alt="" aria-hidden="true" /> Gau Seva</div>
+        <div><img src="assets/icons/icon-sattvic-living.png" alt="" aria-hidden="true" /> Sattvic Living</div>
+        <div><img src="assets/icons/icon-yoga-meditation.png" alt="" aria-hidden="true" /> Yoga &amp; Meditation</div>
+        <div><img src="assets/icons/icon-community-seva.png" alt="" aria-hidden="true" /> Community Seva</div>
+        <div><img src="assets/icons/icon-environment-care.png" alt="" aria-hidden="true" /> Environment Care</div>
       </div>
     </div>
 
-    <div class="footer-links">
-      <h3>Quick Links</h3>
-      <a href="index.html">Home</a>
-      <a href="living.html">Living</a>
-      <a href="diet.html">Diet</a>
-      <a href="spirituality.html">Spirituality</a>
-      <a href="awareness.html">Awareness</a>
-      <a href="benefits.html">Benefits</a>
-      <a href="about.html">About Us</a>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 GauVeg. All rights reserved.</p>
+        <p>Live Sattvic. Live in Harmony.</p>
+        <a href="https://www.paypal.com/donate/?hosted_button_id=8T9EJ3S82WH7Y" target="_blank" rel="noopener">
+          Donate with PayPal
+        </a>
+      </div>
     </div>
+  </footer>
 
-    <div class="footer-focus">
-      <h3>Our Focus</h3>
-      <p>🐄 Gau Seva</p>
-      <p>🌿 Sattvic Living</p>
-      <p>🧘 Yoga & Meditation</p>
-      <p>🤝 Community Seva</p>
-      <p>🌎 Environment Care</p>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <span>© 2024 GauVeg. All Rights Reserved.</span>
-    <span>Made with 🤍 for a better world</span>
-  </div>
-</footer>
-
+  <script src="contact-form.js"></script>
 </body>
 </html>

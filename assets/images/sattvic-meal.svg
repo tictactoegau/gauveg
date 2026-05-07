@@ -1,0 +1,45 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <radialGradient id="paper" cx="50%" cy="40%" r="80%">
+    <stop stop-color="#FFFDF8"/>
+    <stop offset="1" stop-color="#EADCC0"/>
+  </radialGradient>
+  <linearGradient id="leaf" x1="160" y1="150" x2="1060" y2="620">
+    <stop stop-color="#89A864"/>
+    <stop offset="1" stop-color="#2D5B38"/>
+  </linearGradient>
+  <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#3E321A" flood-opacity=".18"/>
+  </filter>
+</defs>
+<rect width="1200" height="720" fill="url(#paper)"/>
+<path d="M110 565C295 410 630 245 1088 270C878 520 515 650 110 565Z" fill="url(#leaf)" opacity=".78"/>
+<path d="M175 540C435 430 735 335 1020 285" stroke="#DBE7BF" stroke-width="7" opacity=".45"/>
+<g filter="url(#softShadow)">
+  <ellipse cx="600" cy="388" rx="370" ry="236" fill="#B58125"/>
+  <ellipse cx="600" cy="388" rx="335" ry="210" fill="#D7AD61"/>
+  <ellipse cx="600" cy="388" rx="300" ry="182" fill="#FFF5DE"/>
+</g>
+<circle cx="490" cy="320" r="76" fill="#FFF8E8" stroke="#C9962D" stroke-width="8"/>
+<circle cx="490" cy="320" r="54" fill="#E9B83F"/>
+<path d="M440 329C471 295 520 298 542 332C510 318 475 344 440 329Z" fill="#699653" opacity=".75"/>
+<circle cx="650" cy="308" r="74" fill="#FFF8E8" stroke="#C9962D" stroke-width="8"/>
+<circle cx="650" cy="308" r="53" fill="#F5F0E5"/>
+<path d="M607 311C635 288 681 289 700 315C665 309 640 329 607 311Z" fill="#fff"/>
+<circle cx="410" cy="445" r="73" fill="#FFF8E8" stroke="#C9962D" stroke-width="8"/>
+<circle cx="410" cy="445" r="51" fill="#7D9E59"/>
+<circle cx="390" cy="424" r="12" fill="#D75B37"/>
+<circle cx="433" cy="461" r="12" fill="#F0C04D"/>
+<circle cx="428" cy="424" r="9" fill="#FFFDF7"/>
+<circle cx="755" cy="455" r="76" fill="#FFF8E8" stroke="#C9962D" stroke-width="8"/>
+<circle cx="755" cy="455" r="55" fill="#C46E36"/>
+<path d="M712 438C744 418 784 430 804 462C767 444 741 466 712 438Z" fill="#7E4C26" opacity=".34"/>
+<ellipse cx="575" cy="500" rx="132" ry="50" fill="#F4E3BB" stroke="#C9962D" stroke-width="8"/>
+<path d="M470 500C528 466 637 468 686 501C624 524 527 526 470 500Z" fill="#FFF8EA"/>
+<ellipse cx="885" cy="315" rx="78" ry="40" fill="#F9F2E6" stroke="#C9962D" stroke-width="7"/>
+<path d="M824 316C869 280 922 294 948 316C902 341 859 341 824 316Z" fill="#EEE6D6"/>
+<circle cx="310" cy="340" r="42" fill="#F7F1E2" stroke="#C9962D" stroke-width="6"/>
+<circle cx="310" cy="340" r="25" fill="#5E8A4E"/>
+<text x="600" y="104" text-anchor="middle" font-family="Georgia,serif" font-size="54" fill="#17462F">Sattvic Diet</text>
+<text x="600" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#607063">Pure • Balanced • Nourishing</text>
+</svg>
